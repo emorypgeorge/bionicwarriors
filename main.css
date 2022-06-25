@@ -1,0 +1,424 @@
+body {
+    background-color: rgb(231, 226, 226);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1%;
+    padding: 0;
+}  
+
+header{
+    background-color: #000000;
+    font-size: xx-large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 600px){
+    header{
+        font-size: large;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px){
+    header{
+        font-size: large;
+        padding: 10px;
+    }
+}
+
+nav{
+    background-color: #000000;
+    font-size: large;
+    width: 100%;  
+}
+
+nav a{
+    color: white;
+    text-align: left;
+}
+
+nav .logo a{
+    background-image: url("images/logo.jpg");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-indent: -99999px;
+    position: relative;
+    top: -55px;
+    left: -10px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: gold;
+}
+
+ul{
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+    height: 35px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 600px){
+    li{
+        display: block;
+        text-align: center;
+        font-size: medium;
+        height: 20px;
+        padding: 10px;
+        margin: 40px;
+    }
+
+    nav .logo a{
+        background-image: url("images/logo.jpg");
+        background-size: 60px;
+        background-repeat: no-repeat;
+        width: 60px;
+        height: 60px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px){
+    li{
+        display: block;
+        text-align: center;
+        font-size: x-large;
+        height: 20px;
+        padding: 20px;
+        margin: 40px;
+    }
+
+    nav .logo a{
+        background-image: url("images/logo.jpg");
+        background-size: 80px;
+        background-repeat: no-repeat;
+        width: 80px;
+        height: 80px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+main{
+    background-color: white;
+    color: black;
+    padding: 50px 100px 100px 100px;
+    text-align: left;
+}
+
+footer{
+    display: inline-block; 
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-style: italic;
+    width: 100%;
+}
+
+footer img{
+    width: 50px;
+    height: auto;
+    padding: 20px;
+    position: relative;
+    top: 35px;
+}
+
+@media screen and (max-width: 600px){
+    footer{
+        display: block;
+    }
+
+    footer img{
+        width: 40px;
+        height: auto;
+        padding: 20px;
+        position: relative;
+        top: 0px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px){
+    footer{
+        display: block;
+    }
+
+    footer img{
+        width: 50px;
+        height: auto;
+        padding: 20px;
+        position: relative;
+        top: 0px;
+    }
+}
+
+p{
+    font-size: x-large;
+}
+
+table{
+    width: 100%;
+    font-size: larger;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+caption{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+tr:nth-child(2n+1) {
+    background-color: lightgrey;
+}
+
+@media screen and (max-width: 600px){
+    table{
+        font-size: medium;
+        padding: 0px;
+        margin-left: -50px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px){
+    table{
+        font-size: large;
+        padding: 0px;
+        margin-left: -50px;
+    }
+}
+
+.about{
+    display: flex;
+    align-items: center;
+}
+
+
+.about img{
+    width: 400px;
+    height: auto;
+    margin-left: 100px;
+}
+
+@media screen and (max-width:600px){
+    .about{
+        display: block;
+        width: 60%;
+    }
+
+    p{
+        font-size: medium;
+    }
+    
+    
+    .about img{
+        width: 200px;
+        height: auto;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px){
+    .about{
+        display: block;
+        width: 80%;
+    }
+
+    p{
+        font-size: large;
+    }
+    
+    
+    .about img{
+        width: 300px;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+
+
+form{
+    font-size: large;
+}
+
+@media screen and (max-width: 600px) {
+    form{
+        font-size: medium;
+    }
+}
+
+.home h1{
+    font-size: 80px;
+    text-align: center;
+}
+
+.home figure{
+    display: inline;
+    padding: 20px;
+    margin: 0;
+}
+
+.home figure img{
+    width: 25%;
+    height: auto;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .home figure{
+        display: block;
+        padding: 0px;
+    }
+
+    .home figure img{
+        width: 200px;
+        height: auto;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px){
+    .home figure{
+        display: block;
+        padding: 0px;
+    }
+
+    .home figure img{
+        width: 40%;
+        height: auto;
+        margin-left: 30%;
+    }
+}
+
+
+.resources{
+    align-items: center;
+}
+.resources h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.resources figure{
+    display: inline-block;
+    padding: 20px;
+}
+
+.resources figure img{
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+    position: relative;
+    top: -60px;
+}
+
+.resources figcaption{
+    font-size: x-large;
+    text-align: center;
+    padding: 30px;
+}
+
+iframe{
+    width: 560px;
+    height: 315px;
+}
+
+@media  screen and (max-width: 600px) {
+    .resources h1{
+        font-size: 30px;
+    }
+
+    .resources figure{
+        display: block;
+        margin: 0;
+        padding: 0;
+        height: 300px;
+        text-align: center;
+    }
+
+    .resources figure img{
+        width: 200px;
+        height: auto;
+        position: inherit;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .resources figcaption{
+        font-size: medium;
+    }
+
+    iframe{
+        width: 280px;
+        height: 157px;
+    }
+
+}
+
+@media  screen and (min-width: 600px) and (max-width: 1800px) {
+    .resources h1{
+        font-size: 40px;
+    }
+
+    .resources figure{
+        display: block;
+        margin: 0;
+        padding: 0;
+        height: 350px;
+        text-align: center;
+    }
+
+    .resources figure img{
+        width: 300px;
+        height: auto;
+        position: inherit;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .resources figcaption{
+        font-size: large;
+    }
+
+    iframe{
+        width: 448px;
+        height: 252px;
+    }
+
+}
+
